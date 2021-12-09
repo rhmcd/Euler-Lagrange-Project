@@ -1,3 +1,12 @@
+## Note that the first set of 6 values are, essentially, an example. Nonetheles, it is important to note that 
+## regardless of the numerical values, it is useful to note thee state of the structure needed to insert the bounds. 
+## Each DFT value is stored as a polynomial function of some unknown coefficient alpha. Likeiwse, these idividual arrays
+## are used as a coefficient inside of a larger polynomial, ie. the inverse DFT representation of the true solution.
+## The purpose of this function is to transform this unweildy equation, a polynomial of polynomials almost, into 
+## A single polynomial using one of the boundary conditions. This allows for the remaining variable, alpha, to
+## be solved for by Laguerre's method. 
+
+
 b0 = [0, 1]  ## ie. y(a)=b --> (a,b)
 bn = [1, 2]
 
