@@ -1,3 +1,12 @@
+## This represents the final step of the differential transofrm method. This final step is actually 
+## Another algorithm entirely, designed to compute the roots of a polynomial. In this case, we have a
+## polynomial in terms of aplha which is equal to zero. Thus, it follows that alpha occurs at the roots of 
+## said function. Once the roots have been computed, one can plug the aplha value into the previously
+## mentioned "poynomial of polynomials" to ge ta taylor series approximation of the solution to the 
+## functional. 
+
+
+
 # import numpy as np
 
 # import matplotlib.pyplot as plt
